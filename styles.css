@@ -9,6 +9,7 @@
 }
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -30,6 +31,11 @@ p {
 a {
     color:var(--color3);
     text-decoration: none;
+}
+img {
+    max-width:100%;
+    height:auto;
+    align-self: center;
 }
 
 
@@ -216,7 +222,7 @@ SECTION 2
 
 /* SISTEMA DE MONITOREO - SECTION 3*/
 .monitoreo {
-        margin-top:7rem;
+    margin-top:7rem;
 }
 .imagen-sistema {
     display:flex;
@@ -336,6 +342,7 @@ SECTION 2
     justify-content: space-evenly;
     padding-bottom:1em;
     flex-grow: 1;
+    flex-shrink: 0;
 }
 .img-item {
     width:46%;
