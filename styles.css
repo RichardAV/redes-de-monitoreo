@@ -16,7 +16,6 @@ body {
     margin:0;
     padding:0;
     box-sizing:border-box;
-    background-color: red;
 }
 h1 {
     font-size:3.5rem;
@@ -39,12 +38,7 @@ img {
     align-self: center;
 }
 
-
-
-
 /* GENERAL SETUP */
-.main {
-}
 .section {
     /* min-height: 85vh; */
     height:100%;
@@ -95,9 +89,6 @@ ABOVE THE FOLD
   font-weight:900;
   padding-bottom:2px;
 }
-.titulo1 {
-  /* font-size:60px; */
-}
 .titulo2 {  
   font-size:2rem;  
   position:relative;
@@ -127,11 +118,6 @@ ABOVE THE FOLD
     z-index: 9000;
     margin-left:2rem;
     margin-right:2rem;
-    /* width: 100px;
-    height: 100px; */
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
-    /* background-color: var(--color1); */
 }
 .icono {
     display:flex;
@@ -143,9 +129,6 @@ ABOVE THE FOLD
     font-size: 2.7rem;
 }
 
-
-
-
 /* 
 
 SECTION 2 
@@ -156,7 +139,6 @@ SECTION 2
     background-color: var(--color1);
     color:var(--color2);
 }
-
 .general-information {
     position: relative;
     padding-top:60px;
@@ -191,7 +173,6 @@ SECTION 2
     margin-top:0.5rem;
 }
 
-
 /* INFORMACION GENERAL */
 .h2 {
     color: var(--color2);
@@ -209,7 +190,6 @@ SECTION 2
     flex-wrap: wrap;
 }
 .text-column {
-    /* background-color: orange; */
     min-width:350px;
     width: 45%;
     text-align: center;
@@ -256,7 +236,6 @@ SECTION 2
     padding-right:1rem;
     position:relative;
 }
-
 .fade {
     height: 100px;
     width: 100%;
@@ -264,7 +243,7 @@ SECTION 2
     position:absolute;
     bottom:0;
     left:0;
-    background-image: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.5), rgba(0,0,0,0));
+    background-image: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0));
 }
 .btn-container {
     text-align: center;
@@ -308,6 +287,7 @@ SECTION 2
 .icono:hover {
     background-color:var(--color3);  
 }
+
 /* FOTOGRAFIA - SECTION 6 */
 
 .fotografia {
@@ -322,9 +302,7 @@ SECTION 2
 }
 .card {
     background-color: white;
-    /* width:45%; */
     width: 450px;
-    /* height: 400px; */
     box-shadow: var(--shadow);
     border-bottom:5px solid var(--color1);
     margin-bottom:2rem;
@@ -336,7 +314,6 @@ SECTION 2
     text-align: center;
     padding:2rem 0;
     font-weight: bold;
-    /* font-weight: bold; */
 }
 .pictures-container {
     display:flex;
@@ -353,6 +330,7 @@ SECTION 2
 }
 
 /* DIFUSIÓN / SECTION 7 */
+
 .difusion {
     height:100%;
 }
@@ -361,9 +339,7 @@ SECTION 2
     justify-content: space-around;
     flex-wrap:wrap;
     padding-bottom:3em;
-    
 }
-
 .news-item {
     background-color: white;
     width: 200px;
@@ -382,7 +358,6 @@ SECTION 2
 .news__link {
     padding:1em 1.5em;
 }
-
 footer {
     background-color:var(--color1);  
     height: 50px;
@@ -430,12 +405,7 @@ MEDIA QUERIES
         height:150px;
         width: 80%;
     }
-    /* FOTOGRAFIA */
-    .fotografia-cards {
-        
-    }
 }
-
 
 
 /* HELPERS */
